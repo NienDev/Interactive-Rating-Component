@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="start">
+        <div class="img">
+          <img
+            src="./images/icon-star.svg"
+            alt="icon-star"
+            aria-hidden="true"
+            class="circle"
+          />
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="ops">
+          <button class="circle">1</button>
+          <button class="circle">2</button>
+          <button class="circle">3</button>
+          <button class="circle">4</button>
+          <button class="circle">5</button>
+        </div>
+        <button class="submit" onclick="SwitchPage()">Submit</button>
+      </section>
+
+      <section class="end">
+        <div class="img">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="illustration-thank-you"
+            aria-hidden="true"
+          />
+        </div>
+        <div class="selection">
+          You selected <span class="num">4</span> out of 5
+        </div>
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="#https://www.facebook.com/trandainien">Tran Dai Nien</a>.
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
